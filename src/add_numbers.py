@@ -11,8 +11,19 @@
 
 def add_numbers():
     numbers = []
-    for index in range(5):
-        numbers.append(float(input(f'Enter number {index + 1}: ')))
+    for i in range(5):
+        inp = input(f'Enter number {i + 1}: ')
+        num = float(inp)
+        numbers.append(num)
     return sum(numbers)
 
-print(f"The sum of numbers is: {add_numbers()}")
+total = add_numbers()
+print(f"The sum of numbers is: {total}")
+
+# def add_numbers():
+#     numbers = []
+#     for index in range(5):
+#         numbers.append(float(input(f'Enter number {index + 1}: ')))
+#     return sum(numbers)
+
+# print(f"The sum of numbers is: {add_numbers()}")
