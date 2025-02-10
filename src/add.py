@@ -1,3 +1,4 @@
+
 def add(a,b):
         return a + b
 
@@ -64,4 +65,4 @@ def summationOfTupleOfEvent(t):
 # print(summationOfTuple((1, 2, 3)))
 
 print(summationOfTupleOfOdd((1,2,3,4,5)))
-print(summationOfTupleOfEvent((1,2,3,4,5)))
+print(summationOfTupleOfEvent((1,2,3,4,5)))    
